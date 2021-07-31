@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="main" id="main">
+    <div class="main__container">
+      <div class="heading">
+        <h1 class="text__title">Learn to code by watching others</h1>
+
+        <p class="text__description">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.</p>
+      </div>
+
+      <div class="content">
+        <div class="heading__content">
+          <p class="text__content"><b>Try it free 7 days</b> then $20/mo. thereafter</p>
+        </div>
+
+        <div class="form__container"> 
+          <form class="form" id="form">
+            <div class="form__box">
+              <input type="text" name="firstName" placeholder="First Name" id="first-name" class="input">
+              <small>first name cannot be empty</small>
+            </div>
+
+            <div class="form__box">
+              <input type="text" name="lastName" placeholder="Last Name" id="last-name" class="input">
+              <small>Last name cannot be empty</small>
+            </div>
+
+            <div class="form__box">
+              <input type="email" name="email" placeholder="Email Address" id="email" class="input">
+              <small>Email cannot be empty</small>
+            </div>
+
+            <div class="form__box">
+              <input type="password" name="password" placeholder="Password" id="password" class="input">
+              <small>Password cannot be empty</small>
+            </div>
+
+            <input type="submit" value="Claim your free trial" class="button__link">
+            
+            <span class="text__Terms">By clicking the button, you are agreeing to our <b>Terms and Services</b></span>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Dwi susilo</a>.
+    </p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
